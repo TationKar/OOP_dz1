@@ -2,7 +2,7 @@ package Task1;
 
 import java.time.LocalDate;
 
-public class Cat extends Animal {
+public class Cat extends Animal  implements Goable, Swimable{
     public Cat() {
         super();
     }

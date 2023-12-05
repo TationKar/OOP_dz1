@@ -51,9 +51,8 @@ public class Animal {
         System.out.println("breathe");
     }
 
-    public void toGo() {System.out.println(getClass().getSimpleName() + " to go");}
-
-    public void fly() {System.out.println(getClass().getSimpleName() + " to fly");}
-    public void swim() {System.out.println(getClass().getSimpleName() + " to swim");}
+    public String toString(){
+        return "[" + getClass().getSimpleName() + " " + name + ", illness: " + illness + ", ownerName: " + ownerName + "]";
+    }
 
 }
